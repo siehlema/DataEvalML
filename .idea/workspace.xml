@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d41a314-1e86-41c0-a348-824701fc8bb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/keras_senvaleva.py" beforeDir="false" afterPath="$PROJECT_DIR$/senvaleva/keras_senvaleva.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/senvaleva/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +23,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="1" />
+          <entry key="py" value="4" />
           <entry key="test 2in3out" value="1" />
         </counts>
       </usages-collector>
@@ -29,28 +31,28 @@
         <counts>
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
           <entry key="md" value="121" />
-          <entry key="py" value="9" />
+          <entry key="py" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="121" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="115" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/senvaleva/keras_senvaleva.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -62,7 +64,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,6 +92,8 @@
         <option value="$PROJECT_DIR$/keras_senvaleva.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/senvaleva/keras_senvaleva.py" />
+        <option value="$PROJECT_DIR$/senvaleva/__init__.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -96,11 +116,6 @@
             <path>
               <item name="SenValEva" type="b2602c69:ProjectViewProjectNode" />
               <item name="SenValEva" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SenValEva" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SenValEva" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenValEva" type="b2602c69:ProjectViewProjectNode" />
@@ -136,7 +151,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.keras_senvaleva">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="keras_capacitive_sensors" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SenValEva" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,12 +194,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SenValEva" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.keras_capacitive_sensors" />
       <item itemvalue="Python.keras_senvaleva" />
+      <item itemvalue="Python.setup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.keras_senvaleva" />
         <item itemvalue="Python.keras_capacitive_sensors" />
       </list>
@@ -212,11 +250,11 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49966148" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49966148" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5003385" side_tool="true" weight="0.329927" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -243,6 +281,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/senvaleva/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/senvaleva/keras_senvaleva.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -250,6 +291,13 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>

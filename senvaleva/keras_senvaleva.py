@@ -4,8 +4,6 @@ import numpy
 from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
-from keras import backend as K
-K.set_image_dim_ordering('th')
 
 # fix random seed for reproducibility
 seed = 7
@@ -21,16 +19,11 @@ X_test = dataset_test[:, 0:2]
 y_test = dataset_test[:, 2:5]
 
 
-# X_train = numpy.expand_dims(X_train, axis=2)
-# X_test = numpy.expand_dims(X_test, axis=2)
-
-
 # create model
 model = Sequential()
 model.add(Dense(20, input_dim=2, activation='relu', kernel_initializer='uniform'))
 model.add(Dropout(0.2))
 model.add(Dense(30, activation='relu'))
-# model.add(Dropout(0.2))
 model.add(Dense(12, activation='relu'))
 model.add(Dense(3, kernel_initializer='normal'))
 

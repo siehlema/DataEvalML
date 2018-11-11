@@ -1,3 +1,6 @@
+"""Module for Keras Sensor Value Evaluation. Right now this is a sample application
+which uses capacitive sensor values for training"""
+
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
 import numpy

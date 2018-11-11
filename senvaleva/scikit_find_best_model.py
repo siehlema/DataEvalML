@@ -2,22 +2,21 @@
 regressors are used to find an optimal model for the depending data"""
 
 import numpy
-from sklearn.cluster import FeatureAgglomeration
 from sklearn.neural_network import MLPRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
-from sklearn.pipeline import make_pipeline
 
+# Read train and test data
 dataset_train = numpy.loadtxt("../data/sensor_data_train")
 X_train = dataset_train[:, 0:2]
 y_train = dataset_train[:, 2:5]
-
 dataset_test = numpy.loadtxt("../data/sensor_data_test")
 X_test = dataset_test[:, 0:2]
 y_test = dataset_test[:, 2:5]
 
+# Build an array of regressors
 regressors = [
     #    ("SGD", SGDRegressor(max_iter=10000)),
     #    ("SGDA", SGDRegressor(max_iter=1000, average=True)),
@@ -31,11 +30,10 @@ regressors = [
     ("RandomForestRegressor", RandomForestRegressor(n_jobs=1))
 ]
 
-print(X_train[:, 0])
-print(y_train[:])
-
+# init loop values for storing best regressor + information
 (best_mse, best_regressor, best_name) = (1, None, 'None')
 best_pred = None
+# Loop through all regressors to find the best fitting one regarding the used data
 for name, regr in regressors:
     regr.fit(X_train, y_train)
 
@@ -54,7 +52,7 @@ for name, regr in regressors:
 
     plt.show()
 
-print('Best Regressor is {0} with a MSE of {1}'.format(best_name, best_mse))
+print('Best Model is {0} with a MSE of {1}'.format(best_name, best_mse))
 
 plt.plot(best_pred[:, 0], color='blue', linewidth=2)
 plt.plot(y_test[:, 0], color='black', linewidth=2)

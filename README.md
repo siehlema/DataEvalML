@@ -15,4 +15,4 @@ Train Data:
   * The following 3 are distance values of an object relative to the sensors (outputs)
 * There is one data-set for training and one for testing
 
-The future work of this repository wants to deal with more and new Machine Learning Frameworks/Techniques to improve sensor value evaluation. Moreover various other sensor values will be added to evaluate them.
+The future work of this repository wants to deal with more and new Machine Learning Frameworks/Techniques to improve sensor value evaluation. Moreover various other sensor values will be added to to test the applications on them.

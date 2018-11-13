@@ -6,11 +6,14 @@ The provided samples want to show basic implementations on how to use Machine Le
 Used Frameworks:
 * Keras for Deep Neural Networks
 * Scikit-learn for other types of ML like Random Forest, Linear Regression, SVM, etc.
-* Tpot
 
-Train Data:
+Used Datasets:
 * Boston house-prices dataset
 * Diabetes dataset
 * ...
+
+ToDo:
+* Use Tpot for finding an optimal model
+* Combine multiple framework approaches
 
 The future work of this repository wants to deal with more and new Machine Learning Frameworks/Techniques to improve sensor value evaluation. Moreover various other sensor values will be added to to test the applications on them.

@@ -1,5 +1,5 @@
-"""Module for Keras Sensor Value Evaluation. Right now this is a sample application
-which uses capacitive sensor values for training"""
+"""Module for Keras Evaluation. Right now this is a sample application
+which uses test values for training"""
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
@@ -14,10 +14,10 @@ numpy.random.seed(seed)
 
 
 # load data
-dataset_train = numpy.loadtxt("../data/sensor_data_train")
+dataset_train = numpy.loadtxt("../data/data_train")
 X_train = dataset_train[:, 0:2]
 y_train = dataset_train[:, 2:5]
-dataset_test = numpy.loadtxt("../data/sensor_data_test")
+dataset_test = numpy.loadtxt("../data/data_test")
 X_test = dataset_test[:, 0:2]
 y_test = dataset_test[:, 2:5]
 

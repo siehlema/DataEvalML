@@ -4,7 +4,6 @@ regressors are used to find an optimal model for the boston housing dataset"""
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
 from sklearn.linear_model import SGDRegressor, PassiveAggressiveRegressor
-from sklearn import datasets
 from sklearn.datasets import load_boston
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error

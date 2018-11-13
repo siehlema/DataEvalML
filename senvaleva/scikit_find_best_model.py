@@ -1,4 +1,4 @@
-"""Scikit-learn Module for Sensor Value Evaluation. Here a few different
+"""Scikit-learn Module for Evaluation. Here a few different
 regressors are used to find an optimal model for the depending data"""
 
 import numpy
@@ -9,10 +9,10 @@ from sklearn.ensemble import RandomForestRegressor
 import matplotlib.pyplot as plt
 
 # Read train and test data
-dataset_train = numpy.loadtxt("../data/sensor_data_train")
+dataset_train = numpy.loadtxt("../data/data_train")
 X_train = dataset_train[:, 0:2]
 y_train = dataset_train[:, 2:5]
-dataset_test = numpy.loadtxt("../data/sensor_data_test")
+dataset_test = numpy.loadtxt("../data/data_test")
 X_test = dataset_test[:, 0:2]
 y_test = dataset_test[:, 2:5]
 

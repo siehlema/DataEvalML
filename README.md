@@ -16,4 +16,4 @@ ToDo:
 * Use Tpot for finding an optimal model
 * Combine multiple framework approaches
 
-The future work of this repository wants to deal with more and new Machine Learning Frameworks/Techniques to improve sensor value evaluation. Moreover various other sensor values will be added to to test the applications on them.
+The future work of this repository wants to deal with more and new Machine Learning Frameworks/Techniques to improve data evaluation. Moreover various other datasets will be added to to test the applications on them.

@@ -9,6 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import RandomForestRegressor
 
+print("Boston Housing Sample with multiple scikit learn models\n")
 
 # Load Boston housing dataset
 (data_X, data_y) = load_boston(True)

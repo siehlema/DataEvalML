@@ -3,20 +3,16 @@ which uses the boston housing dataset for regression training"""
 
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
-import numpy
 from sklearn.metrics import mean_squared_error
 from sklearn.datasets import load_boston
 from sklearn.model_selection import train_test_split
-boston = load_boston()
 
-# fix random seed for reproducibility
-seed = 7
-numpy.random.seed(seed)
+print("Boston Housing Regression Sample with Keras\n")
 
 
 # load data
 (data_X, data_y) = load_boston(True)
-X_train, X_test, y_train, y_test = train_test_split(data_X, data_y, test_size=0.33, random_state=7)
+X_train, X_test, y_train, y_test = train_test_split(data_X, data_y, test_size=0.33, random_state=42)
 
 
 # create model

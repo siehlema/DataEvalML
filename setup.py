@@ -9,7 +9,8 @@ setup(
         'numpy',
         'tensorflow>=1.8.0',
         'keras',
-        'sklearn'
+        'sklearn',
+        'tpot'
     ],
     description="Repository for Sensor Value Evaluation using Machine Learning",
     author="Martin Siehler",
